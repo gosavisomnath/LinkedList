@@ -78,5 +78,20 @@ public class MyLinkedList {
         return temp;
 
     }
+    public INode search(INode key) {
+        INode temp = this.head;
+
+        while (temp != null && temp.getNext() != null) {
+
+            if (temp.getKey().equals(key)) {
+
+                return temp;
+
+            }
+
+        }
+
+        return null;
+    }
 
 }
