@@ -1,5 +1,10 @@
 public class MyLinkedList {
-    public static void main(String[] args) {
-        System.out.println("Welcome To The Linked List Program");
+    private INode head;
+    private INode tail;
+    private  int size;
+
+    public MyLinkedList() {
+        this.head = null;
+        this.tail = null;
     }
 }
