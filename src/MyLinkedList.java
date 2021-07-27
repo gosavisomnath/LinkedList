@@ -49,5 +49,15 @@ public class MyLinkedList {
         new_node.setNext(a);
 
     }
+    public INode pop() {
+        INode temp = this.head;
+
+        this.head = head.getNext();
+
+        size--;
+
+        return temp;
+
+    }
 
 }
