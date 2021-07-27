@@ -11,7 +11,8 @@ public class UC2Class {
         obj.add(mySecondNode);
         obj.add(myThirdNode);
         obj.printNodes();
-        obj.printNodes();
+        obj.insertAfter(INode.head,mySecondNode);
+
         
     }
 }
